@@ -105,7 +105,7 @@ hist(totStepsByDay$Tot.Steps, col="green",
      xlab = "Total Daily Steps")
 ```
 
-![](C:\Users\Tejus Madusker\Desktop\R-Coursera\Practice Code\output\PA1_template_files/figure-html/Histogram-1.png)<!-- -->
+![](C:\Users\TEJUSM~1\Desktop\R-COUR~1\Assignments\ReproducibleResearchAssgt1\RepData_PeerAssessment1/figure/Histogram-1.png)<!-- -->
 
 *(c3) Calculate and report the mean and median of the total number of steps taken per day*
 
@@ -141,7 +141,7 @@ plot(totStepsByInterval$Interval, totStepsByInterval$Avg.Steps,
      ylab = "Avg. No. of Steps")
 ```
 
-![](C:\Users\Tejus Madusker\Desktop\R-Coursera\Practice Code\output\PA1_template_files/figure-html/Plot.Steps.By.Interval-1.png)<!-- -->
+![]( C:\Users\TEJUSM~1\Desktop\R-COUR~1\Assignments\ReproducibleResearchAssgt1\RepData_PeerAssessment1/figure/figure-html/Plot.Steps.By.Interval-1.png)<!-- -->
 
 *(d2) Which 5-minute interval, on average across all days, contains the max no. of steps?*
 
@@ -277,7 +277,7 @@ hist(totStepsByDay$Tot.Steps,
      xlab = "Total Daily Steps")
 ```
 
-![](C:\Users\Tejus Madusker\Desktop\R-Coursera\Practice Code\output\PA1_template_files/figure-html/Histogram.Original-1.png)<!-- -->
+![]( C:\Users\TEJUSM~1\Desktop\R-COUR~1\Assignments\ReproducibleResearchAssgt1\RepData_PeerAssessment1/figure/Histogram.Original-1.png)<!-- -->
 
 ```r
 summary(totStepsByDay$Tot.Steps)["Mean"]
@@ -308,7 +308,7 @@ hist(imputedTotStepsByDay$Tot.Steps,
      xlab = "Total Daily Steps")
 ```
 
-![](C:\Users\Tejus Madusker\Desktop\R-Coursera\Practice Code\output\PA1_template_files/figure-html/Histogram.New-1.png)<!-- -->
+![]( C:\Users\TEJUSM~1\Desktop\R-COUR~1\Assignments\ReproducibleResearchAssgt1\RepData_PeerAssessment1/figure/Histogram.New-1.png)<!-- -->
 
 ```r
 summary(imputedTotStepsByDay$Tot.Steps)["Mean"]
@@ -372,6 +372,6 @@ xyplot(steps ~ interval | Day.Week,
        layout = c(1,2))
 ```
 
-![](C:\Users\Tejus Madusker\Desktop\R-Coursera\Practice Code\output\PA1_template_files/figure-html/Panel.Plot-1.png)<!-- -->
+![]( C:\Users\TEJUSM~1\Desktop\R-COUR~1\Assignments\ReproducibleResearchAssgt1\RepData_PeerAssessment1/figure/Panel.Plot-1.png)<!-- -->
 
 # End of assignment solution
